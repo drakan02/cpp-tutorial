@@ -20,7 +20,9 @@
 
 - Hàm sửa đổi (Modifiers):
     push_back(value)     thêm phần tử vào cuối.
+    push_front(value)    thêm phần tử vào đầu.
     pop_back()           xóa phần tử cuối cùng.
+    pop_front()          xóa phần tử đầu tiên.
     clear()              xóa toàn bộ phần tử.
 
     insert(iterator pos, value)                          chèn phần tử value vào trước vị trí pos.
